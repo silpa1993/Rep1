@@ -6,7 +6,7 @@ public class c1 {
 
 	public static void main(String[] args) throws InterruptedException {
 						// TODO Auto-generated method stub
-						System.setProperty("webdriver.chrome.driver", "C:/Users/mssil/eclipse-workspace/J1/lib1/chromedriver.exe");
+						System.setProperty("webdriver.chrome.driver", "C:/Users/mssil/.jenkins/workspace/OnlyJenkins/lib1/chromedriver.exe");
 						WebDriver driver=new ChromeDriver();
 						driver.get("http://qatechhub.com");
 						System.out.println("Hi");
